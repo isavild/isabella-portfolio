@@ -968,32 +968,32 @@ p {
   }
 
   .media-1 {
-    width: 26vw !important;
-    max-width: 115px !important;
-    left: 8% !important;
-    top: 42% !important;
-  }
+  width: 32vw !important;
+  max-width: 130px !important;
+  left: 7% !important;
+  top: 42% !important;
+}
 
   .media-2 {
-    width: 32vw !important;
-    max-width: 135px !important;
-    left: 56% !important;
-    top: 39% !important;
-  }
+  width: 38vw !important;
+  max-width: 155px !important;
+  left: 52% !important;
+  top: 39% !important;
+}
 
   .media-3 {
-    width: 26vw !important;
-    max-width: 115px !important;
-    left: 15% !important;
-    top: 64% !important;
-  }
+  width: 32vw !important;
+  max-width: 130px !important;
+  left: 12% !important;
+  top: 64% !important;
+}
 
   .media-4 {
-    width: 30vw !important;
-    max-width: 125px !important;
-    left: 58% !important;
-    top: 66% !important;
-  }
+  width: 34vw !important;
+  max-width: 140px !important;
+  left: 56% !important;
+  top: 66% !important;
+}
 
   /* Header */
 
@@ -1014,22 +1014,22 @@ p {
   }
 
   .site-logo {
-    width: 22px !important;
+    width: 24px !important;
     height: auto;
     margin-top: 0;
   }
 
   .site-name {
-    height: 24px !important;
+    height: 26px !important;
     min-width: 0 !important;
     width: auto !important;
-    max-width: 260px;
+    max-width: 280px;
     overflow: visible;
   }
 
   .site-name-default,
   .site-name-hover {
-    font-size: 20px !important;
+    font-size: 22px !important;
     line-height: 1 !important;
     letter-spacing: -0.04em;
   }
