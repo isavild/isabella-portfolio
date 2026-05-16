@@ -980,65 +980,73 @@ p {
 
   /* Header */
 
-  .site-header {
-    padding: 18px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
+.site-header {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
 
-  .site-brand {
-    gap: 10px;
-    max-width: 100%;
-  }
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+}
 
-  .site-logo {
-    width: 20px;
-    height: auto;
-    margin-top: 1px;
-  }
+.site-logo {
+  width: 16px !important;
+  height: auto;
+  margin-top: 0;
+}
 
-  .site-name {
-    height: 22px;
-    min-width: 0;
-    width: 220px;
-    overflow: hidden;
-  }
+.site-name {
+  height: 18px !important;
+  min-width: 0 !important;
+  width: auto !important;
+  max-width: 220px;
+  overflow: visible;
+}
 
-  .site-name-default,
-  .site-name-hover {
-    font-size: 17px;
-    line-height: 1;
-  }
+.site-name-default,
+.site-name-hover {
+  font-size: 16px !important;
+  line-height: 1 !important;
+  letter-spacing: -0.04em;
+}
 
-  .header-right {
-    max-width: 260px;
-    width: 100%;
-    gap: 12px;
-    align-items: flex-start;
-    text-align: left;
-  }
+.header-right {
+  max-width: 260px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+}
 
-  .header-description {
-    display: block;
-    max-width: 260px;
+.header-description {
+  display: block !important;
+  max-width: 250px;
+  margin: 0;
 
-    font-size: 11px;
-    line-height: 1.35;
-    text-align: left;
-  }
+  font-size: 10px;
+  line-height: 1.35;
+  text-align: left;
+}
 
-  .nav {
-    gap: 18px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
+.nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-  .nav-link {
-    font-size: 12px;
-  }
-
+.nav-link {
+  font-size: 11px;
+}
   /* General layout */
 
   .page,
@@ -1048,9 +1056,9 @@ p {
   }
 
   .page {
-    padding-top: 190px;
-    padding-bottom: 90px;
-  }
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
 
   .hero {
     min-height: 90vh;
@@ -1063,7 +1071,7 @@ p {
   .contact-section {
     width: 100%;
     min-height: auto;
-    padding: 190px 20px 90px;
+    padding: 170px 20px 90px;
     display: block;
     overflow: hidden;
   }
@@ -1101,7 +1109,7 @@ p {
 
   .work-gallery {
     min-height: auto;
-    padding: 190px 20px 90px;
+    padding: 170px 20px 90px;
 
     display: grid;
     grid-template-columns: 1fr;
