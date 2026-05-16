@@ -807,7 +807,7 @@ p {
 
   transform: translateY(17px);
   position: relative;
-  z-index: 103;
+  z-index: 1;
 }
 
 .contact-left {
