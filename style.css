@@ -955,6 +955,18 @@ p {
   }
 }
 
+  .home-media {
+    width: 34vw !important;
+    max-width: 140px;
+  }
+
+  .home-media:nth-child(2),
+  .home-media:nth-child(4) {
+    width: 40vw !important;
+    max-width: 160px;
+  }
+}
+
 @media (max-width: 700px) {
 /* Header */
 
