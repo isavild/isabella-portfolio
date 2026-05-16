@@ -976,15 +976,15 @@ p {
   }
 
   .site-name {
-    height: 28px;
+    height: 22px;
     min-width: 0;
-    width: 175px;
+    width: 130px;
+   overflow: hidden;
   }
 
   .site-name-default,
   .site-name-hover {
-    font-size: 25px;
-    line-height: 1;
+    font-size: 17px;
   }
 
   .header-right {
