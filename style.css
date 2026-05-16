@@ -1074,8 +1074,8 @@ p {
   }
 
   .page {
-    padding-top: 160px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 20px;
   }
 
   .hero {
@@ -1089,7 +1089,7 @@ p {
   .contact-section {
     width: 100%;
     min-height: auto;
-    padding: 160px 20px 60px;
+    padding: 120px 20px 20px;
     display: block;
     overflow: hidden;
   }
@@ -1128,7 +1128,7 @@ p {
 
   .work-gallery {
     min-height: auto;
-    padding: 160px 20px 60px;
+    padding: 120px 20px 20px;
 
     display: grid;
     grid-template-columns: 1fr;
