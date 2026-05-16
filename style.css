@@ -969,6 +969,10 @@ p {
 
 @media (max-width: 700px) {
 /* Header */
+.home-polka {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
 
 .home-media {
     width: 34vw !important;
