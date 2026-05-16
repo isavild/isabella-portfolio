@@ -1029,7 +1029,7 @@ p {
 
   .site-name-default,
   .site-name-hover {
-    font-size: 22px !important;
+    font-size: 24px !important;
     line-height: 1 !important;
     letter-spacing: -0.04em;
   }
@@ -1046,23 +1046,23 @@ p {
 
   .header-description {
     display: block !important;
-    max-width: 280px;
+    max-width: 310px;
     margin: 0;
 
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.35;
     text-align: left;
   }
 
   .nav {
     display: flex;
-    gap: 18px;
+    gap: 22px;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 
   .nav-link {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   /* General layout */
